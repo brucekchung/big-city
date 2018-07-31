@@ -1,0 +1,21 @@
+.Photos {
+  display: flex;
+}
+
+.picture {
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+}
+
+.Photos .one {
+  background: #F89406;
+}
+
+.Photos .two {
+  background: #F27935;
+}
+
+.Photos .three {
+  background: #F9BF3B;
+}

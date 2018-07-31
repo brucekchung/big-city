@@ -1,8 +1,10 @@
 import React from 'react'
+import './Description.css'
 
 const Description = () => (
   <div className="Description">
-    Description
+    <h3>Scavenger Hunt Charity Event</h3>
+    <p>Help support the American Red Cross during our urgent blood drive season, by going on an American Red Cross themed Scavenger hunt. Every ticket that you contribute helps raise enough money to save 3 lives!</p>
   </div>
 )
 
