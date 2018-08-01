@@ -1,15 +1,25 @@
 .Instructions .steps {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
-  /* padding: 30px; */
+  margin: 0 auto;
+  width: 94%;
 }
 
 .Instructions .card {
-  border: 1px solid blue;
-  margin: 10px;
+  margin: 6px;
+  flex-grow: 1;
   width: 30%;
-  min-width: 280px;
+  min-width: 240px;
   height: 330px;
+  padding: 10px;
+  background: #3A539B;
+  overflow: auto;
+  color: white;
+  font-family: 'Crimson Text', Georgia, Times, serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
+.Instructions .card h3 {
+  color: orange;
+}
