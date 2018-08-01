@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
 * {
   box-sizing: border-box;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+p, li, ul {
+  font-family: 'Crimson Text', Georgia, Times, serif;
+  font-size: 18px;
+  line-height: 25px;
 }

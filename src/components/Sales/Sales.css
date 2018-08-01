@@ -1,0 +1,16 @@
+.Sales {
+  display: flex;
+  border: 1px solid black;
+}
+
+.goal {
+  border: 1px solid blue;
+  width: 50%;
+}
+
+.purchase {
+  border: 1px solid orange;
+  width: 50%;
+}
+
+
