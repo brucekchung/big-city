@@ -1,0 +1,15 @@
+.Instructions .steps {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  /* padding: 30px; */
+}
+
+.Instructions .card {
+  border: 1px solid blue;
+  margin: 10px;
+  width: 30%;
+  min-width: 280px;
+  height: 330px;
+}
+
