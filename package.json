@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "sektor": "git+https://github.com/Stanko/sektor.git"
   },
   "scripts": {
     "start": "react-scripts start",

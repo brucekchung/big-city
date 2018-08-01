@@ -1,16 +1,41 @@
 .Sales {
   display: flex;
-  border: 1px solid black;
+  height: 330px;
+  text-align: center;
+}
+
+.Sales button {
+  background: #00B16A;
+  font-size: 30px;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px black;
 }
 
 .goal {
-  border: 1px solid blue;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  color: #D91E18;
 }
 
 .purchase {
-  border: 1px solid orange;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.purchase p {
+  margin: 12px 0 0 0;
+}

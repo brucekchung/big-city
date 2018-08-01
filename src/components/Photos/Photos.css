@@ -1,23 +1,29 @@
 .Photos {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
+  background: black;
+  /* overflow: x; */
 }
 
 .picture {
-  height: 100px;
+  height: 180px;
   width: 200px;
-  /* margin: 20px; */
+  width: 32%;
+  min-width: 200px;
 }
 
 .Photos .one {
-  background: #F89406;
+  background-image: url('../../assets/guys_laughing.jpeg');
+  background-size: cover;
 }
 
 .Photos .two {
-  background: #F27935;
+  background-image: url('../../assets/couples_laughing.jpeg');
+  background-size: cover;
 }
 
 .Photos .three {
-  background: #F9BF3B;
+  background-image: url('../../assets/family_run.jpeg');
+  background-size: cover;
 }

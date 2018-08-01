@@ -8,13 +8,21 @@ import Instructions from '../Instructions/Instructions'
 
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      endDate: 'August 3',
+      price: '$30'
+    }
+  }
+
   render() {
     return (
       <div className="App">
         <Banner />
         <Description />
         <Photos />
-        <Sales />
+        <Sales sales={this.state} />
         <Instructions />
       </div>
     )
