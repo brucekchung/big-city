@@ -8,6 +8,13 @@
   text-decoration: none;
 }
 
+.Sales .graph {
+  height: 150px;
+  width: 150px;
+  background: url('../../assets/example_graph2.png');
+  background-size: cover;
+}
+
 .Sales button {
   background: #00B16A;
   font-size: 30px;
