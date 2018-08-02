@@ -1,0 +1,13 @@
+.Footer {
+  border: 1px solid red;
+  margin-top: 35px;
+  height: 300px;
+  overflow: auto;
+}
+
+.Footer .social-media {
+  height: 120px;
+  width: 180px;
+  background: url('../../assets/social_media.png');
+  background-size: cover;
+}

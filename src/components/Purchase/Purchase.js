@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './Purchase.css'
+import { NavLink } from 'react-router-dom'
 
 class Purchase extends Component {
   constructor(props) {
@@ -17,7 +18,6 @@ class Purchase extends Component {
   }
 
   handlePurchase = e => {
-    e.preventDefault()
     this.props.addDonator(this.state.leader)
 
     this.setState({ leader: '', participants: 0 })
@@ -46,12 +46,14 @@ class Purchase extends Component {
             onChange={this.handleChange}
           />
           <p>total ${this.state.participants * 30}</p>
-          <button
-            className="purchase-btn"
-            onClick={this.handlePurchase}
-            type="submit">
-          Purchase
-          </button>
+          <NavLink to='/thanks'>
+            <button
+              className="purchase-btn"
+              onClick={this.handlePurchase}
+              type="submit">
+            Purchase
+            </button>
+          </NavLink>
         </form>
       </div>
     )

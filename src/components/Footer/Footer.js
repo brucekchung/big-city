@@ -6,6 +6,9 @@ const Footer = ({ donators }) => {
 
   return (
     <div className="Footer">
+      <div className="social-media"></div>
+      <h3>Please share</h3>
+      <h3>Thank you to all our supporters</h3>
       { allDonators() }
     </div>
   )
