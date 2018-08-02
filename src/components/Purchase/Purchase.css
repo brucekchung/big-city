@@ -1,8 +1,19 @@
 .Purchase {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  background: #F4B350;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.Purchase .purchase-btn {
+  margin: 15px auto;
+}
+
+.Purchase p, input {
+  font-size: 20px;
+}
+
+

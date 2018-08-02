@@ -11,14 +11,23 @@ class Purchase extends Component {
   }
 
   handleChange = e => {
-    const { name, value } = e.target;
-    this.setState({[name]:value});
+    const { name, value } = e.target
+
+    this.setState({[name]:value})
+  }
+
+  handlePurchase = e => {
+    e.preventDefault()
+    this.props.addDonator(this.state.leader)
+
+    this.setState({ leader: '', participants: 0 })
   }
 
   render() {
     return (
       <div className="Purchase">
         <form type="submit" className="purchase-form">
+          <p>leader name</p>
           <input
             className="leader"
             name="leader"
@@ -27,6 +36,7 @@ class Purchase extends Component {
             value={this.state.leader}
             onChange={this.handleChange}
           />
+          <p>number of participants</p>
           <input
             className="participants"
             name="participants"
@@ -35,6 +45,13 @@ class Purchase extends Component {
             value={this.state.participants}
             onChange={this.handleChange}
           />
+          <p>total ${this.state.participants * 30}</p>
+          <button
+            className="purchase-btn"
+            onClick={this.handlePurchase}
+            type="submit">
+          Purchase
+          </button>
         </form>
       </div>
     )

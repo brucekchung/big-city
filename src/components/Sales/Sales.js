@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import Purchase from '../Purchase/Purchase'
 
-const Sales = ({ sales }) => {
+const Sales = ({ sales, addDonator }) => {
   return (
     <div className="Sales">
       <div className="goal">
@@ -15,10 +15,10 @@ const Sales = ({ sales }) => {
         <div className="purchase">
           <NavLink to='purchase'><button>Tickets ${ sales.price }</button></NavLink>
           <p>Last to day to purchase: { sales.endDate }</p>
-          <p className="countdown">time remaining: countdown</p>
+          <p className="countdown">2 days 13 hrs 41 sec</p>
         </div>
       )} />
-      <Route path='/purchase' component={ Purchase } />
+    <Route path='/purchase' render={() => <Purchase addDonator={addDonator} /> } /> 
     </div>
   )
 }

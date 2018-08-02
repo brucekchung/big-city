@@ -4,6 +4,7 @@
   padding: 10px;
   background: black;
   /* overflow: x; */
+  overflow: auto;
 }
 
 .picture {

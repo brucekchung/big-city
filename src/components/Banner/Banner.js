@@ -3,12 +3,12 @@ import './Banner.css'
 import BCH_logo from '../../assets/BCH_logo.png'
 import search_icon from '../../assets/search.svg'
 import red_cross_logo from '../../assets/red_cross_logo.png'
-// import earth_map from '../../assets/red_cross_logo.png'
+import { NavLink } from 'react-router-dom'
 
 const Banner = () => (
   <div className="Banner">
     <div className="top-bar">
-      <img className="logo" alt="logo" src={BCH_logo} />
+      <NavLink to='/'><img className="logo" alt="logo" src={BCH_logo} /></NavLink>
       <nav>
         <ul>how it works</ul>
         <ul>find hunts</ul>
