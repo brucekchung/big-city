@@ -12,7 +12,7 @@ class App extends Component {
     super(props)
     this.state = {
       endDate: 'August 3',
-      price: '$30'
+      price: 30 
     }
   }
 
