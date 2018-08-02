@@ -15,3 +15,38 @@ p, li, ul {
   font-size: 18px;
   line-height: 25px;
 }
+
+
+@media screen and (max-width: 575px) {
+  .Banner .top-bar nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1, h2, h3 {
+    font-size: 26px !important;
+  }
+
+  .Banner .red-cross {
+    display: none;
+  }
+
+  .Description h3 {
+    line-height: 25px !important;
+  }
+
+  .Sales {
+    flex-direction: column;
+    height: 400px !important;
+  }
+
+  .Sales .goal {
+    width: 100%;
+  }
+
+  .Sales .purchase {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

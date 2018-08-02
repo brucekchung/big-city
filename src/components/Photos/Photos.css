@@ -1,13 +1,14 @@
 .Photos {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  /* padding: 10px; */
   background: black;
-  /* overflow: x; */
-  overflow: auto;
+  /* overflow: auto; */
+  overflow-x: auto;
 }
 
 .picture {
+  margin: 4px;
   height: 180px;
   width: 200px;
   width: 32%;
