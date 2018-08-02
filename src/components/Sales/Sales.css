@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.Sales a {
+  text-decoration: none;
+}
+
 .Sales button {
   background: #00B16A;
   font-size: 30px;
